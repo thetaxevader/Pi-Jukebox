@@ -9,7 +9,7 @@ class ConfigFile(object):
         # MPD configuration settings
         self.settings = []
         self.radio_stations = []
-        self.settings.append({'section': 'MPD Settings', 'key': 'host', 'value': 'localhost', 'first_time': False})
+        self.settings.append({'section': 'MPD Settings', 'key': 'Host', 'value': 'localhost', 'first_time': False})
         self.settings.append({'section': 'MPD Settings', 'key': 'port', 'value': 6600, 'first_time': False})
         self.settings.append({'section': 'MPD Settings', 'key': 'music directory', 'value': None, 'first_time': True})
         self.initialize()
